@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                outline: 0px;
+            }
+            .con{
+                width: 100%;
+                height: 100vh;
+                background-image: url("https://wallpapercave.com/wp/wp9537123.jpg");
+                background-size: 100%;
+            }
+            .box{
+                position: relative;
+                top: 50px;
+                margin: auto;
+                width: 28%;
+                height: 500px;
+                background: linear-gradient(rgba(100, 197, 92, 0.7),rgba(65, 214, 90, 0.2)),url("https://images.pexels.com/photos/544268/pexels-photo-544268.jpeg?auto=compress&cs=tinysrgb&w=400");       
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            .login{
+                font-size: 30px;
+                text-align: center;
+                color: aliceblue;
+                padding-top: 40px;
+            }
+            ::placeholder{
+                color: aliceblue;
+            }
+            .data{
+                text-align: center;
+                margin-top: 20px;
+            }
+            input[type=email]{
+                background: transparent;
+                border: 1px solid aliceblue;
+                border-radius: 20px;
+                text-align: center;
+                padding: 5px 35px;
+                margin-top: 20px;
+                color: darkred;
+            }
+            input[type=password]{
+                background: transparent;
+                border: 1px solid aliceblue;
+                border-radius: 20px;
+                text-align: center;
+                padding: 5px 35px;
+                margin-top: 20px;
+            }
+            .button{
+                text-align: center;
+            }
+            .b1 button{
+                background: transparent;
+                border: 1px solid aliceblue;
+                border-radius: 20px;
+                text-align: center;
+                padding: 5px 100px;
+                margin-top: 60px;
+                color: orangered;
+            }
+            .b2 button{
+                background: transparent;
+                border: 1px solid aliceblue;
+                border-radius: 20px;
+                text-align: center;
+                padding: 5px 90px;
+                margin-top: 60px;
+                color: orangered;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="con">
+            <div class="box">
+                <div class="login">Login</div>
+                <div class="data">
+                    <input type="email" placeholder="User id">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="button">
+                    <div class="b1">
+                        <button>Login</button>
+                    </div>
+                    <div class="b2">
+                        <button>I am New</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
